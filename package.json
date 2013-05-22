@@ -1,0 +1,36 @@
+{
+  "name": "sarray",
+  "version": "0.0.1",
+  "description": "Sorted Array - uses binary search for fast insertion / reading",
+  "main": "index.js",
+  "dependencies": {
+    "sset": "~0.0.3"
+  },
+  "devDependencies": {
+    "bnch": "~0.0.1",
+    "mocha": "~1.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arnorhs/node-sarray.git"
+  },
+  "keywords": [
+    "sort",
+    "sorted",
+    "array",
+    "arrays",
+    "binary",
+    "binarysearch",
+    "search",
+    "index",
+    "sorting",
+    "list",
+    "lists"
+  ],
+  "author": "Arnor Heidar Sigurdsson <arnorhs@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "readme.md"
+}
