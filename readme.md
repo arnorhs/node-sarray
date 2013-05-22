@@ -1,6 +1,7 @@
 # sarray - Sorted array in javascript
 
-Uses binary-sort to insert and search in array.
+Features:
+- Uses binary-sort to insert and search in array.
 
 Much faster than searching through a normal array, as per this (maybe unfair) benchmark:
 ![benchmark](http://f.cl.ly/items/2k2i3f3p1m0W1B1N271E/Screen%20Shot%202013-05-22%20at%202.41.27%20AM.png)
@@ -19,6 +20,7 @@ arr.add(3);
 
 ### Custom comparator
 
+```javascript
 var arr = SortedArray(function(a, b) {
     return a.val - b.val;
 });
