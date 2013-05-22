@@ -3,12 +3,12 @@
 Uses binary-sort to insert and search in array.
 
 Much faster than searching through a normal array, as per this (maybe unfair) benchmark:
-![benchmark](http://f.cl.ly/items/2Q0d1b2y47290q3r0809/Screen%20Shot%202013-05-22%20at%201.58.46%20AM.png)
+![benchmark](http://f.cl.ly/items/2k2i3f3p1m0W1B1N271E/Screen%20Shot%202013-05-22%20at%202.41.27%20AM.png)
 
 ### Usage:
 
 ```javascript
-var SortedArray = require('SortedArray');
+var SortedArray = require('sarray');
 
 var arr = SortedArray([5,4,2,1]);
 
