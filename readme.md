@@ -4,7 +4,7 @@ Features:
 - Uses binary-sort to insert and search in array.
 
 Much faster than searching through a normal array, as per this (maybe unfair) benchmark:
-![benchmark](http://f.cl.ly/items/2k2i3f3p1m0W1B1N271E/Screen%20Shot%202013-05-22%20at%202.41.27%20AM.png)
+![benchmark](http://f.cl.ly/items/1t3V3o270O0E1s1N0X2m/Screen%20Shot%202013-05-23%20at%201.27.03%20AM.png)
 
 ### Usage:
 
