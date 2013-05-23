@@ -13,16 +13,13 @@ util.inherits(SortedArray, SortedSet);
 
 /*
  * Add items to the array
- * accepts multiple arguments
- * returns the index of the first element inserted
+ *
+ * returns the index of the item inserted
  */
-SortedArray.prototype.add = function() {
-    var x, idx;
-    for (var i = arguments.length-1; i >= 0; i--) {
-        idx = this.indexOf(arguments[i]);
+SortedArray.prototype.addOne = function(item) {
+    var idx = this.indexOf(item),
         x = idx < 0 ? -idx - 1 : idx;
-        this.items.splice(x, 0, arguments[i]);
-    }
+    this.items.splice(x, 0, item);
     return x;
 };
 

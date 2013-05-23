@@ -1,10 +1,10 @@
 {
   "name": "sarray",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sorted Array - uses binary search for fast insertion / reading",
   "main": "index.js",
   "dependencies": {
-    "sset": "~0.0.3"
+    "sset": "0.0.4"
   },
   "devDependencies": {
     "bnch": "~0.0.1",
